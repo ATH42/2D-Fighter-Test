@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://bot5ygrrk52sm"]
+
+[ext_resource type="Texture2D" uid="uid://dbtw61emgudw" path="res://Sprites/Parallax/img/FarBG.png" id="1_5vu8e"]
+[ext_resource type="Texture2D" uid="uid://dpgy0rpnahb8j" path="res://Sprites/Parallax/img/FarBottomBG.png" id="2_6ihi3"]
+[ext_resource type="Texture2D" uid="uid://2b0h4dy40ji0" path="res://Sprites/Parallax/img/FarTopBG.png" id="3_h8e3a"]
+[ext_resource type="Texture2D" uid="uid://nbcxty2hbf0i" path="res://Sprites/Parallax/img/TreesBG.png" id="4_24kjw"]
+[ext_resource type="Texture2D" uid="uid://n4arjnlmfpb6" path="res://Sprites/Parallax/img/TreesFG.png" id="5_dfg46"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(13, 113)
+
+[node name="FarBg" type="Sprite2D" parent="."]
+position = Vector2(579, 218)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("1_5vu8e")
+
+[node name="FarBottomBg" type="Sprite2D" parent="."]
+position = Vector2(581, 215)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("2_6ihi3")
+
+[node name="FarTopBg" type="Sprite2D" parent="."]
+position = Vector2(581, 217)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("3_h8e3a")
+
+[node name="TreesBg" type="Sprite2D" parent="."]
+position = Vector2(579, 217)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("4_24kjw")
+
+[node name="TreesFg" type="Sprite2D" parent="."]
+position = Vector2(577, 218)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("5_dfg46")
